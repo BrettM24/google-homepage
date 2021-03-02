@@ -6,35 +6,110 @@
     height: 115px;
     width: 340px;
 }
+.search-bar{
+    position:relative;
+    display: block;
+    top: 275px;
+}
 #search-form{
     position: relative;
     display: block;
     margin: auto;
-    top: 300px;
     width: 650px;
     height: 50px;
-    border-width: 1px;
+    border: none;
+    border: solid 1px #ccc;
     border-radius: 50px;
-    border-color: rgb(221, 206, 206);
     padding-left: 100px;
 }
-#search-icon{
-    position: relative;
-    display: block;
-    margin: auto;
-    top: 340px;
-    width: 27.8125px;
-    height: 24.375px;
-    z-index: 2;
-    right: 350px;
+#search-form:hover{
+    border: none;
+    border: solid 2.5px rgb(206, 206, 206);
 }
 #voice-search-icon{
     position: relative;
     display: block;
     margin: auto;
-    top: 253px;
     width: 26.2857px;
     height: 36.8571px;
+    z-index: 3; 
+    margin-top: -47.5px;  
+    left: 345px; 
+}
+#search-icon{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 27.8125px;
+    height: 24.375px;
     z-index: 2;
-    left: 345px;    
+    margin-top: -45px;
+    right: 340px;
+    top:15px;
+}
+#navbar{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    top: 22px;
+    margin-left: 13px;
+    line-height: 6.5px;
+}
+#navbar-item-left{
+    font-size: 7.5px;
+    color: rgb(92, 90, 90);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#navbar-item-space{
+    margin-left: 1940px;
+}
+#navbar-item-app{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -5px;
+    width: 34.0909px;
+    height: 33.1764px;
+    opacity: 0.5;
+}
+#navbar-item-app:hover{
+    opacity: 0.9;
+}
+#navbar-item-signin{
+    margin-left: 10px;
+    background-color: rgb(66,133,244);
+    font-size: 17px;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    margin-top: -5px;
+}
+a:link{
+    color: rgb(92, 90, 90);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(92, 90, 90);
+    text-decoration: underline;
+}
+#footer{
+    background-color:rgb(243, 240, 240);
+    width: 200%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+
+    display: flex;
+}
+#footbar-item-left{
+    
+    font-size: 17.1px;
+    color: rgb(92, 90, 90);
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+#footer-space{
+    margin-left: 1700px;
 }

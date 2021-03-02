@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+<style>
+    .navtext{
+        font-family: "Open Sans";
+    }
+</style>
+
 <html>
     <head>
         <title>Google Home Page</title>
@@ -6,14 +15,45 @@
     </head>
     <body>
         <img id=logo-element src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="The Google Logo">
-        
         <div class="search-bar">
-            <img id=search-icon src="https://lh3.googleusercontent.com/bo9TmQilG1L5Dr-R9zovEdLz2s-q-xiiunpOfi9j7J1AFSWOo23q3lbVIKF3hqgtXxBK00SzZ4xUNR6r2v9j4Or68SoulLoSXPh_W4nLUiRZvxr7nagwqFN1Pqwd3cGMSYYYNXeF7Q=w2400?source=screenshot.guru" alt="Search icon">
             <input id=search-form type="text" placeholder="">
-            <img id=voice-search-icon src="https://lh3.googleusercontent.com/TKmkNR5wdygkbF8whzr1ET8fDGAwbkPeBb37OB3hIDQmMKcp-yZ2N8AkyoDqYsMCS2-1dVFA2zHLsHtIfWeU7ObKxC2vnaxsQ66KFlOPP8bz_9G9DJ9vmzOKYiifskj9Wp6cpV8iRg=w2400" alt="voice-search-icon">
+            <a href="#"><img id=voice-search-icon src="https://lh3.googleusercontent.com/TKmkNR5wdygkbF8whzr1ET8fDGAwbkPeBb37OB3hIDQmMKcp-yZ2N8AkyoDqYsMCS2-1dVFA2zHLsHtIfWeU7ObKxC2vnaxsQ66KFlOPP8bz_9G9DJ9vmzOKYiifskj9Wp6cpV8iRg=w2400" alt="voice-search-icon"></a>
+            <img id=search-icon src="https://lh3.googleusercontent.com/bo9TmQilG1L5Dr-R9zovEdLz2s-q-xiiunpOfi9j7J1AFSWOo23q3lbVIKF3hqgtXxBK00SzZ4xUNR6r2v9j4Or68SoulLoSXPh_W4nLUiRZvxr7nagwqFN1Pqwd3cGMSYYYNXeF7Q=w2400?source=screenshot.guru" alt="Search icon">
         </div>
-        <div class="navbar">
+        <div id=navbar>
+            <div id=navbar-item-left>
+                <a href="#"><h1 class="navtext">About</h1></a>
+            </div>
+            <div id=navbar-item-left>
+                <a href="#"><h1 class="navtext">Store</h1></a>
+            </div>
             
+            <div id=navbar-item-space>
+                <h1></h1>
+            </div>
+
+            <div id=navbar-item-left>
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><h1 class="navtext">Gmail</h1></a>
+            </div>
+            <div id=navbar-item-left>
+                <a href="#"><h1 class="navtext">Images</h1></a>
+            </div>
+            <div>
+                <img id=navbar-item-app src="https://lh3.googleusercontent.com/TgeljuBrZigunT5GsSoP9gU3N5I2WYQu-gAUUoinnqXv9b9iADRotmY9OBEtnCEAKqdVuXcx2-85rY4k4VUi_j69AKRiqb1YgqgnIYIcq7j63zdJaT9lJSkjfpqz0D2sBZsfRANEuw=w2400" alt="Google Aps Icon">
+            </div>
+            <div>
+                <a href="#"><button id=navbar-item-signin class="navtext" type="submit"><strong>Sign in</strong></button></a>
+            </div>
+        </div>
+
+        <div id=footer>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>Advertising</h1></a>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>Business</h1></a>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>How Search works</h1></a>
+           <div id=footer-space ></div>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>Privacy</h1></a>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>Terms</h1></a>
+           <a href="#"><h1 class="navtext" id = footbar-item-left>Settings</h1></a>
         </div>
     </body>
 </html>
