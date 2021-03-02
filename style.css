@@ -13,8 +13,28 @@
     top: 300px;
     width: 650px;
     height: 50px;
-    border-color: white;
     border-width: 1px;
     border-radius: 50px;
+    border-color: rgb(221, 206, 206);
+    padding-left: 100px;
 }
-
+#search-icon{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 340px;
+    width: 27.8125px;
+    height: 24.375px;
+    z-index: 2;
+    right: 350px;
+}
+#voice-search-icon{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 253px;
+    width: 26.2857px;
+    height: 36.8571px;
+    z-index: 2;
+    left: 345px;    
+}
